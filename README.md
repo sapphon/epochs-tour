@@ -1,6 +1,6 @@
 # THE EPOCHS TOUR
 
-Braylor Swift's EPOCHS Tour is coming to town, and everybody wants a ticket.  The problem is, seating is limited, and being the world's favorite singer, she can't stay in town for long.
+Braylor Swift's EPOCHS Tour is coming to town, and everybody wants a ticket.  The catch is, seating is limited - and since BrayBray is the world's favorite singer, she won't stay in town for long.
 
 Luckily, you are prepared!  Having found the vendor's API, your job is to write a script that will automatically buy the tickets you and your friends want, as soon as they go on sale.
 
