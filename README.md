@@ -34,17 +34,17 @@ Within each problem's directory, `tickets.json` is the API data, `answers.json` 
 ### \#6: Buy Cheapest Ticket If Under $150 OR Closest Ticket Otherwise
 	The orchestra (section 1) is closest to the stage, then the mezzanine (2), then the balcony (3).  Letters towards the beginning of the alphabet denote closer rows within those sections.
 
-### \#6: Buy two tickets as far from the stage as possible, for the in-laws
+### \#7: Buy two tickets as far from the stage as possible, for the in-laws
 	The orchestra (section 1) is closest to the stage, then the mezzanine (2), then the balcony (3).  Letters towards the beginning of the alphabet denote closer rows within those sections.
 
-### \#7: Buy Cheapest 3 Consecutive Tickets OR Cheapest Single Orchestra Ticket
+### \#8: Buy Cheapest 3 Consecutive Tickets OR Cheapest Single Orchestra Ticket
 	If your two married friends can't sit together and with you, they don't want to come.  Get 3 consecutive seats if possible.  If not, just one for you.
 
-### \#8: Handle Latency
+### \#9: Handle Latency
 	Modify the 'buy' method to take two seconds and to return a boolean.  Modify the tickets array to be a function.  Simulate tickets disappearing between when you call buy and when it completes!
 
-### \#9: Buy 3 Unscalped Non-Consecutive Tickets
+### \#10: Buy 3 Unscalped Non-Consecutive Tickets
 
-### \#10: Buy Cheapest 4 Tickets in a Square, At Least 3 Unscalped
+### \#11: Buy Cheapest 4 Tickets in a Square, At Least 3 Unscalped
 
 ### \#++: Combine Previous Requirements To Create New Ones!
