@@ -1,4 +1,4 @@
-[
+{"toBuy": [
 	{
 		"price":120.50,
 		"seat": "A5",
@@ -7,4 +7,4 @@
 		"date":"03/28/2025",
 		"includes_backstage_pass": true
 	}
-]
+], "toSell": []}

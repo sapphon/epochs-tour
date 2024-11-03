@@ -9,12 +9,18 @@ bought = []
 sold = []
 
 def sell(ticket):
-	print("Selling ticket: " + str(ticket))
-	sold.append(ticket)
+	if ticket not in sold:
+		print("Selling ticket: " + str(ticket))
+		sold.append(ticket)
+		return True
+	return False
 
 def buy(ticket):
-	print("Buying ticket: " + str(ticket))
-	bought.append(ticket)
+	if ticket not in bought:
+		print("Buying ticket: " + str(ticket))
+		bought.append(ticket)
+		return True
+	return False
 
 def check_availability():
 	time.sleep(3)
@@ -38,17 +44,20 @@ Each ticket has:
 	* `includes_backstage_pass`, whether or not the ticket includes a backstage pass
 		* False or True
 
-If a ticket looks good you can add it to your cart with `buy(reference_to_ticket)`
+If a ticket looks good you can buy it with `buy(reference_to_ticket)`.  This method returns false if the purchase was unsuccessful.
 
-You can also sell tickets similarly, with `sell(reference_to_ticket)`
+You can also sell tickets similarly, with `sell(reference_to_ticket)`.  This method returns false if the sale was unsuccessful.
 
 Based on the tickets available and the requirements, write a program that correctly performs the transactions you want as fast as possible.  Good luck!
 
 Do not write above this line
 '''
 
+
+
+
 '''
 Do not write below this line
 '''
 print("Time: " + str(time.time() - start_time))
-print("Success!" if answers == bought else "Not quite...")
+print("Success!" if answers['toBuy'] == bought and answers['toSell'] == sold else "Not quite...")
