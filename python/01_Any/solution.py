@@ -53,8 +53,8 @@ Based on the tickets available and the requirements, write a program that correc
 Do not write above this line
 '''
 available_tickets = check_availability()
-buy(next(ticket for ticket in available_tickets if ticket['includes_backstage_pass'] == True))
-
+if len(available_tickets) > 0:
+	buy(available_tickets[0]) 
 '''
 Do not write below this line
 '''
