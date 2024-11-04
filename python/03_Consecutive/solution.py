@@ -1,5 +1,6 @@
 import json
 import time
+import re
 
 tickets_file = open("tickets.json")
 tickets = json.loads(tickets_file.read())
@@ -52,9 +53,13 @@ Based on the tickets available and the requirements, write a program that correc
 
 Do not write above this line
 '''
-available_tickets = check_availability()
-buy(next(ticket for ticket in available_tickets if ticket['includes_backstage_pass'] == True))
+def seatNumber(seatString):
+	numberFinder = re.compile('[0-9]+')
+	return seatString.find(numberFinder)	
 
+available_tickets = check_availability()
+for n in range(len(available_tickets)):
+	#do stuff
 '''
 Do not write below this line
 '''
