@@ -31,7 +31,7 @@ Within each problem's directory, `tickets.json` is the API data, `answers.json` 
 
 ### \#5: Buy $300 worth of consecutive tickets, and get as many as you can
 
-### \#6: Buy Cheapest Ticket If Under $150 OR Closest Ticket Otherwise
+### \#6: Buy Cheapest Ticket If Under $150 OR Closest-to-Stage Ticket Otherwise
 	The orchestra (section 1) is closest to the stage, then the mezzanine (2), then the balcony (3).  Letters towards the beginning of the alphabet denote closer rows within those sections.
 
 ### \#7: Buy two tickets as far from the stage as possible, for the in-laws
